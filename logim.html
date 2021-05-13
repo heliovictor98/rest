@@ -19,6 +19,9 @@
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/cadastro.css">
 
+    <!--JS-->
+    <script src="/js/logim.js"></script>
+
     <title>Res Reserva</title>
   </head>
   <body>
@@ -41,7 +44,7 @@
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" class="form-control" placeholder="enter your passsword">
                   </div>
-                  <input name="login" id="login" class="btn btn-block login-btn" type="button" value="Login">
+                  <input onclick="logar()" name="login" id="login" class="btn btn-block login-btn" type="button" value="Login">
                 </form>
                 <a href="#!" class="esqueci-senha-link">Forgot password?</a>
                 <p class="login-wrapper-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
